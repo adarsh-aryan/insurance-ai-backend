@@ -1,0 +1,33 @@
+{
+    "claim_intent": "Accident",
+    "vehicle_details": {
+        "registration_number": "BR02R2666"
+    },
+    "incident_details": {
+        "date": "2023-10-26",
+        "time": "10:00",
+        "location": "In front of MGF Metropolis Mall",
+        "description": "Car got crashed with another car in front of Metropolis Mall"
+    },
+    "damage_assessment": {
+        "image_path": "user_uploaded_image",
+        "visible_damage_parts": [
+            "left front door",
+            "left rear door",
+            "lower left panel"
+        ],
+        "estimated_repair_cost": "Several hundred to a few thousand dollars",
+        "image_verified": true
+    },
+    "driver_and_third_party": {
+        "driver": "Self",
+        "third_party_damage": true,
+        "third_party_injury": false
+    },
+    "claim_summary": {
+        "total_estimated_cost": "Several hundred to a few thousand dollars",
+        "next_steps": "An adjuster will contact you soon to assess the damage and guide you through the repair process."
+    },
+    "status": "submitted",
+    "created_at": "2025-11-03T12:00:56.151Z"
+}
