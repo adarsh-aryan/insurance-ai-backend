@@ -117,36 +117,3 @@ Follow this step-by-step conversational flow:
 
 Your goal is to act like a trusted AutoSure insurance expert who handles our customers calmly by helping customers regarding buying a policy or filing a claim, one question at a time.
 `;
-
-// - Provide the generated policy number and summary.
-
-// When calling "save_claim_to_db", use this JSON structure:
-// {
-//   "claim_intent": "Accident or Theft or Scratch etc.",
-//   "vehicle_details": {
-//     "registration_number": "string"
-//   },
-//   "incident_details": {
-//     "date": "YYYY-MM-DD",
-//     "time": "HH:MM",
-//     "location": "string",
-//     "description": "string"
-//   },
-//   "damage_assessment": {
-//     "image_path": "string",
-//     "visible_damage_parts": ["part1", "part2"],
-//     "estimated_repair_cost": "string",
-//     "image_verified": true
-//   },
-//   "driver_and_third_party": {
-//     "driver": "Self or Other",
-//     "third_party_damage": true,
-//     "third_party_injury": false
-//   },
-//   "claim_summary": {
-//     "total_estimated_cost": "string",
-//     "next_steps": "string"
-//   },
-//   "status": "submitted",
-//   "created_at": "ISO timestamp"
-// }

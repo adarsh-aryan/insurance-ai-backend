@@ -39,7 +39,6 @@ io.on("connection", (socket) => {
 // ===============================
 app.get("/token", async (req, res) => {
   const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
-  console.log("openai api key:", OPENAI_API_KEY);
 
   const sessionConfig = {
     session: {
